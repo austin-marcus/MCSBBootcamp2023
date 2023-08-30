@@ -1,6 +1,6 @@
 # Module 1
 
-Team Backdoor:
+Team Backdoor **is the best**:
 
 * Kyla
 * Caroline
