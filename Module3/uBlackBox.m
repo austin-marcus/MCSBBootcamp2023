@@ -8,3 +8,9 @@ B_hidden     = 0.5;
 uValue = A_hidden*sin(omega_hidden*t)+A0_hidden + B_hidden*cos(omega_hidden*t);
 
 end
+
+function A = testMe(x)
+
+A = x^2
+
+end

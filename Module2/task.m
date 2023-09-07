@@ -7,12 +7,12 @@ nMax = 50; % max number of days to simulate
 
 rs = 0:0.05:3;
 x = zeros(length(rs),nMax); % fraction caffeinated
-x(:,1) = 0.1; % initial fraction caffeinated
+K =0.6;
+x(:,1) = 0.2; % initial fraction caffeinated
 
 % rs = [0.1, 2.1, 2.5];
 % Ks = [0.6, 0.6, 0.6];
 
-K = 0.6;
 for i=1:length(rs)
     r = rs(i);
     for n=2:nMax
